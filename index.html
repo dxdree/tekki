@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magic Word</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card" id="card">
+
+        <h2>Let's see if you know the password Tekki...</h2>
+
+        <input 
+        type="password" 
+        id="password" 
+        placeholder="Go on, awas kalau salah...">
+
+        <p class="clue">Clue: Leonna loves her. Kalau salah... means kau nda sayang saya :(</p>
+
+        <button onclick="checkPassword()">Enter</button>
+
+    </div>
+
+</div>
+
+<div class="popup" id="popup">
+    <div class="popup-box">
+        <p>Ooo... kau nda sayang saya la ni kan 💔</p>
+        <button onclick="closePopup()">MAJOK!</button>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
